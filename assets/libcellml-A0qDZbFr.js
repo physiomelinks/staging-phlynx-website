@@ -1,0 +1,1 @@
+var e=`/assets/libcellml-Dj7OcrHX.wasm`;export{e as default};

@@ -1,0 +1,1 @@
+function e(e){return`https://bg-rdf.org/models/local/phlynx/${String(e??``).replace(/[^A-Za-z0-9._-]+/g,`_`)||`module`}.celldl`}function t({baseUri:e,modelIri:t}){let n=t?.split(`#`)[0];return n&&n!==e?n:e}export{t as documentUriFor,e as mintDocumentUri};

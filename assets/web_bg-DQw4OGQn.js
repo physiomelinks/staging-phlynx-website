@@ -1,0 +1,1 @@
+var e=`/assets/web_bg-D3AkT1fG.wasm`;export{e as default};

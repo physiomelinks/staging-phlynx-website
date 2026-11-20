@@ -1,0 +1,1 @@
+export{r as bgRdfFramework}from"./bgrdf-sources-uEQTne1q-19FnPevz.js";

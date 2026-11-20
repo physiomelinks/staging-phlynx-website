@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Cross-origin isolation, which the simulator's SharedArrayBuffer needs, from public/coi-serviceworker.js.
+         It runs before anything else loads; the first visit reloads once to install it. Chrome and Firefox use
+         COEP credentialless, which loads cross-origin scripts without credentials; other browsers require CORP. -->
+    <script src="/coi-config.js"></script>
+    <script src="/coi-serviceworker.js"></script>
+    <link rel="icon" type="image/svg+xml" href="/phlynxlogo.svg" />
+    <link rel="icon" sizes="32x32" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhLynx</title>
+    <script type="module" crossorigin src="/assets/index-Dlx34BR9.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-COiEfhsA.js">
+    <link rel="modulepreload" crossorigin href="/assets/runtime-core.esm-bundler-CxJeGy9T.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-CrEkOyU-.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
